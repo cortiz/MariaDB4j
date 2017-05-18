@@ -312,6 +312,7 @@ public class DB {
                 Util.forceExecutable(newExecutableFile("bin", "my_print_defaults"));
                 Util.forceExecutable(newExecutableFile("bin", "mysql_install_db"));
                 Util.forceExecutable(newExecutableFile("bin", "mysqld"));
+                Util.forceExecutable(newExecutableFile("bin", "mysqldump"));
                 Util.forceExecutable(newExecutableFile("bin", "mysql"));
             }
         } catch (IOException e) {

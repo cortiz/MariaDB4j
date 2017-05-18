@@ -103,7 +103,7 @@ public class DBConfigurationBuilder {
 
     /**
      * Sets the port number.
-     * 
+     *
      * @param port port number, or 0 to use detectFreePort()
      * @return this
      */
@@ -197,7 +197,7 @@ public class DBConfigurationBuilder {
         String databaseVersion = getDatabaseVersion();
         if (databaseVersion == null) {
             if (OSX.equals(getOS()))
-                databaseVersion = "mariadb-10.1.9";
+                databaseVersion = "mariadb-10.1.23";
             else if (LINUX.equals(getOS()))
                 databaseVersion = "mariadb-10.1.13";
             else if (WIN32.equals(getOS()))
